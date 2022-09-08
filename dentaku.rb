@@ -23,7 +23,10 @@ int.each do |i|
   nod = nod-1
 end
 
-"#{int2.sum}
+"#{params[:num]} = #{int2.join('+')}
+<br>
+<br>
+= #{int2.sum}
 <br>
 <br>
 <a href='/'>Back</a>"
